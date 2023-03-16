@@ -10,9 +10,5 @@ variable "mssql_databases" {}
 
 variable "tags" {
   type = map(any)
-  default = {
-    idorcamento = "ID000026",
-    projeto     = "Hub",
-    trilha      = "DEV"
-  }
+  default = {}
 }
